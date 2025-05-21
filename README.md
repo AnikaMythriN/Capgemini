@@ -43,6 +43,25 @@
 2. services : Interface and logic classes
 3. application : Main class OnlineShopping.java
 
+### 4. Student CRUD Operation System
+* Takes student details such as name, email, course, and age
+* Assigns a unique ID to each student automatically
+* Performs CRUD operations using REST APIs:
+* GET: Fetch student(s)
+* POST: Add a new student
+* PUT: Update an existing student
+* DELETE: Remove a student by ID
+* Backend developed in Java using Spring Boot, with PostgreSQL as the database
+* Tested using Postman, built in Eclipse IDE
+
+  
+**Packages:**
+
+1. entities : Student
+2. repository : StudentRepository
+3. service : StudentService
+4. controller : StudentController
+5. application : Main class StudentCrudApplication.java
 
 
 ## Steps to Run
