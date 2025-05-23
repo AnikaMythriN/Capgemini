@@ -43,39 +43,44 @@
 2. services : Interface and logic classes
 3. application : Main class OnlineShopping.java
 
-### 4. Student CRUD Operation System
-* Takes student details such as name, email, course, and age
-* Assigns a unique ID to each student automatically
-* Performs CRUD operations using REST APIs:
-* GET: Fetch student(s)
-* POST: Add a new student
-* PUT: Update an existing student
-* DELETE: Remove a student by ID
-* Backend developed in Java using Spring Boot, with PostgreSQL as the database
-* Tested using Postman, built in Eclipse IDE
-
-  
-**Packages:**
-
-1. entities : Student
-2. repository : StudentRepository
-3. service : StudentService
-4. controller : StudentController
-5. application : Main class StudentCrudApplication.java
-
-
-## Steps to Run
+### Steps to Run
 1. Extract each project zip file.
 2. Open in **Eclipse IDE** or any Java-supporting IDE.
 3. Navigate to the application package.
 4. Run the main class (*.java).
 
-
-
-## Requirements
+### Requirements
 
 * Java JDK 8 or above
 * Eclipse / IntelliJ IDEA / VS Code with Java extension
+
+## Student CRUD Operation System
+
+A full-stack application that allows users to perform CRUD (Create, Read, Update, Delete) operations on student data. The backend is developed using Spring Boot with PostgreSQL, and the frontend is built using React.js.
+
+### Features
+
+- Add new student with name, email, course, and age
+- Automatically generates a unique ID for each student
+- View all students
+- Update existing student details
+- Delete student by ID
+- RESTful API design
+- Professional UI using React with Bootstrap
+- Tested using Postman
+
+### Backend:
+- **Java** with **Spring Boot**
+- **PostgreSQL** as the database
+- **Maven** for dependency management
+- **Eclipse IDE**
+- **Postman** for API testing
+
+### Frontend:
+- **React.js**
+- **Bootstrap** for styling
+- **Axios** for API calls
+
 
 
 
